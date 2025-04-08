@@ -3,7 +3,7 @@ let video;
 let hands = [];
 
 // List of words to display
-let words = ["metadesign", "data", "information", "knowledge"];
+let words = ["metadesign", "data", "information", "knowledge", "another word"];
 let currentWord = "";
 
 function preload() {
@@ -38,7 +38,7 @@ function draw() {
     pop(); // Restore the previous state of the drawing
 
     let leftDetected = false;
-  let rightDetected = false;
+   let rightDetected = false;
 
     // Draw all the tracked hand points
     for (let i = 0; i < hands.length; i++) {
