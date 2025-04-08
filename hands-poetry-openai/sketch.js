@@ -77,20 +77,20 @@ function draw() {
     fill(255);
     textAlign(CENTER, CENTER);
     textSize(48);
-    text(currentWord, width / 2, height / 2 - 50);
+    text(currentWord, width / 2, height / 2 - 100);
   }
 
   if (currentQuestion !== "") {
     fill(34, 17, 62); // #22113E in RGB
     noStroke();
     rectMode(CENTER);
-    let textWidth = width * 0.8; // 80% of screen width
+    let textWidth = width; // 80% of screen width
     let textHeight = 80;
-    rect(width/2, height/2 + 50, textWidth, textHeight, 10); // rounded rectangle with 10px radius
+    rect(width/2, height/2 + 200, textWidth, textHeight); // rounded rectangle with 10px radius
     fill(234, 125, 255); // #EA7DFF in RGB
     textAlign(CENTER, CENTER);
     textSize(14);
-    text(currentQuestion, width / 2, height / 2 + 50);
+    text(currentQuestion, width / 2, height / 2 + 200);
   }
 }
 
