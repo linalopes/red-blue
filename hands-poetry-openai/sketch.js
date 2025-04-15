@@ -11,7 +11,7 @@ let lastLeftTriggerTime = 0; // Timestamp in millis()
 const cooldownTime = 2000;  // 10 seconds in milliseconds
 
 // Replace with your OpenAI API Key
-const OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+const OPENAI_API_KEY = "xxx";
 
 // Load the handpose model
 function preload() {

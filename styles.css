@@ -22,26 +22,26 @@ body {
     padding: 0;
     line-height: 1.6;
   }
-  
+
   /* Heading Styles */
   h1, h2, h3 {
     font-family: var(--font-heading);
   }
-  
+
   h4, h5, h6 {
     font-family: var(--font-mono);
   }
-  
+
   /* Link Styles */
   a {
     color: var(--bs-pink);
     text-decoration: none;
   }
-  
+
   a:hover {
     color: var(--bs-turquoise);
   }
-  
+
   /* Color Classes */
   .deep-purple {
     color: var(--bs-deep-purple);
@@ -72,12 +72,12 @@ body {
   .bg-gray-green {
     background-color: var(--bs-gray-green);
   }
-  
+
   .highlight-word {
     color: var(--bs-turquoise);
     transition: color 0.3s ease;
   }
-  
+
   /* Buttons */
   .btn-1 {
       color: var(--bs-deep-purple);
@@ -89,7 +89,7 @@ body {
       background-color: var(--bs-turquoise);
       border-color: var(--bs-pink);
   }
-  
+
   .btn-2 {
       color: var(--bs-deep-purple);
       background-color: var(--bs-gray-green);
@@ -100,7 +100,7 @@ body {
       background-color: transparent;
       border-color: var(--bs-gray-green);
   }
-  
+
   /* Fill color property for SVG icons */
   .fill-deep-purple {
     fill: var(--bs-deep-purple);
@@ -111,7 +111,7 @@ body {
   .fill-turquoise {
     fill: var(--bs-turquoise);
   }
-  
+
   /* Stroke color property for SVG icons */
   .stroke-deep-purple {
     stroke: var(--bs-deep-purple);
@@ -165,4 +165,16 @@ canvas {
     .canvas-container {
         width: 100%;
     }
+}
+
+.token {
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.llm {
+  background: var(--bs-pink);
+}
+.rita {
+  background: var(--bs-turquoise);
 }
