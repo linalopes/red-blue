@@ -158,6 +158,40 @@ This sketch introduces key NLP concepts in action:
 
 Perfect for workshops or classrooms where **form meets computation**.
 
+```text
+                                +----------------------------+
+                                |       The NLP Universe     |
+                                +----------------------------+
+                                             |
+  +-------------------+---------------------+------------------------+
+  |                   |                      |                        |
+  v                   v                      v                        v
+Symbolic Rules   Classical Statistics   Semantic Embeddings    Contextual Models
+(1950s–1980s)     (1990s–2012)           (2013–2017)            (2017 onward)
+  |                   |                      |                        |
+  |                   |                      |                        |
++-----------+    +----------------+     +------------------+     +---------------------+
+|  RiTa.js  |    | Bag-of-Words   |     |   Word2Vec       |     |     Transformers    |
+|           |    | TF-IDF         |     |   GloVe          |     |     BERT / GPT      |
+|           |    | N-grams        |     +------------------+     +---------------------+
++-----------+    +----------------+             |                          |
+  |                                               |                          |
+  | Simple tokenization                          |                          |
+  | Phonetics, syllables, rhyme                  |  Fixed word vectors      |
+  | Morphological analysis                       |  Vector-based semantics  |
+  | No ML, focus on structure                    |  No deep context         |
+  |                                              v                          |
+  |                                      → *Contextual vectors*    → *Self-Attention*
+  |                                                               → *Intelligent generation*
+  v
+Ideal for:
+- Generative poetry
+- Language games
+- Text-based art
+- Lightweight and reactive interfaces
+
+```
+
 ---
 
 ## 🧪 Try Customizing
